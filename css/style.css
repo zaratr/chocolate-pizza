@@ -12,6 +12,12 @@ header
 {
     display: flex;
 }
+
+#header-rightContainer>img:nth-child(6)
+{
+    margin-right: 10px;
+}
+
 main
 {
     width: 100%;
@@ -26,6 +32,8 @@ anything with the same class name will inherent the parent tags same name attrib
 /*
     margin: 100%;
     margin: auto 100%;
-    position: relative;/*avoid using this with flex*/
+    position: relative;/*avoid using this with flex
+    */
+
 
 
