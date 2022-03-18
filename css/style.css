@@ -1,0 +1,32 @@
+body
+{
+
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-leftContainer
+{
+    display: flex;
+}
+main
+{
+    width: 100%;
+    margin: auto;
+}
+/*
+width sets the the width of the container. and margin auto fits to width
+*/
+/*
+anything with the same class name will inherent the parent tags same name attributes/properties
+*/
+/*
+    margin: 100%;
+    margin: auto 100%;
+    position: relative;/*avoid using this with flex*/
+*/
+
+
