@@ -1,0 +1,35 @@
+body
+{
+    
+}
+header
+{
+    display: flex;
+}
+/*
+    margin: 100%;
+    margin: auto 100%;
+*/
+
+nav
+{
+    position: relative;
+    
+}
+.ModuleLeft
+{
+
+
+}
+.logo1, .logo2
+{
+    /* inherited display flex from parent -header*/
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.ModuleRight1, .ModuleRight2
+{
+    justify-content: right;
+    margin-left: 10px;
+}
