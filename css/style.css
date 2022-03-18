@@ -1,3 +1,5 @@
+
+/******************************Raul edits (DOWNWARDS)**********************************/
 body
 {
 }
@@ -22,7 +24,7 @@ main
     width: 100%;
     margin: auto;
 }
-
+/******************************Raul edits (UPWARDS ^)**********************************/
 
 
 /*
@@ -78,8 +80,85 @@ anything with the same class name will inherent the parent tags same name attrib
         display: flex;
         margin-right: 50px;
     }
+/* #PRINT GOES HERE */
+
+.paragraphs {
+    margin: 20px 90px;
+    text-indent: 40px;
+    color: darkgray;
+    line-height: 1.2;
+  }
+  
+  #notebook {
+    width: 90%;
+  }
+  
+  #recipeListTotal {
+    display: block;
+    margin: 30px;
+    position: relative;
+    text-align: center;
+  }
+  
+  #ingredients 
+  {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 100%;
+  }
+  
+  ul
+  {
+    font-size: 16pt;
+    text-align: left;
+    line-height: 1.5;
+    list-style-type: circle;
+  }
+
+/******************************Raul edits (DOWNWARDS)**********************************/
+
+#bio
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+/*
+
+    justify-content: space-between;
+    display: flex;
+    margin-top: 100px auto;
+    margin: 100px auto;
+*/
+#enthusiast
+{
+    display:list-item;
+    list-style-type: none;
+
+}
+
+button
+{
+    background-color: rgb(212, 56, 8);
+    color: white;
+    width: 200px;
+    height: 50px;
+    border: none;
+}
+
+footer
+{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+/******************************Raul edits (UPWARDS ^)**********************************/
 
 
 
-
-    
